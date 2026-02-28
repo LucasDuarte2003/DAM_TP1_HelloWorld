@@ -32,6 +32,16 @@
         android:textColor="@android:color/black"
         android:textSize="18sp" />
 
+    <!-- Mostra a hora atual atualizada a cada segundo -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="8dp" />
+
     <!-- Coração ocupa metade do espaço -->
     <ImageView
         android:id="@+id/imageView"
